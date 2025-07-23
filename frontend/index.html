@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ludo Mozay</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Ludo Mozay</h1>
+  <input type="text" id="roomInput" placeholder="Masukkan ID Room">
+  <button onclick="joinRoom()">Gabung Room</button>
+  <div id="players"></div>
+  <canvas id="board" width="400" height="400"></canvas>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

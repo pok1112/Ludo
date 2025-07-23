@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+#roomInput, button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+#players {
+  margin-top: 20px;
+}
+
+#board {
+  border: 2px solid #000;
+  margin-top: 20px;
+  background-color: white;
+}
